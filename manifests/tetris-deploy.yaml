@@ -15,7 +15,7 @@ spec:
         app: tetris
     spec:
       containers:
-        - name: tetris
-          image: nasi101/tetris # Replace with the actual image tag
+        - name: tetrisv2
+          image: nasi101/tetrisv2 # Replace with the actual image tag
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
